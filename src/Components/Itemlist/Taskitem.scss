@@ -1,0 +1,85 @@
+$bckgColor : #855AFD;
+
+
+.List {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.Taskitem {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: $bckgColor;
+    transition: .5s;
+
+    // Item buttons Style
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    input {
+        border: 2px solid red;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    button {
+        background-color: transparent;
+        transition: .5s;
+    }
+
+    button:hover {
+        opacity: .5;
+    }
+
+   
+}
+
+.taskDone {
+    opacity: .5;
+}
+
+.taskDone::after {
+    content: "";
+    position: absolute;
+    width: 105%;
+    height: 2px;
+    background-color: white;
+    left: -9px;
+    top: 50%;
+}
+
+.Taskitem:hover {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.editInput {
+    * {
+        padding: 8px;
+    }
+
+    input {
+        background-color: transparent;
+        border: 1px solid #13122e;
+        width: 70%;
+    }
+
+    button {
+        color: white;
+        background-color: $bckgColor;
+        width: 30%;
+    }
+}

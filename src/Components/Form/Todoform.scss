@@ -1,0 +1,48 @@
+$bckgColor : #855AFD;
+
+.Todoform {
+    width: 100%;
+}
+
+// Input Field Styling
+
+    .inputField {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 20px ;
+        width: 100%;
+        
+
+        * {
+            padding: 8px;
+        }
+
+        input {
+            background-color: transparent;
+            border: 1px solid #13122e;
+            width: 70%;
+        }
+
+        button {
+            color: white;
+            background-color: $bckgColor;
+            width: 30%;
+        }
+    }
+
+// Items Field Styling
+
+    .itemsField {
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        li {
+            width: 100%;
+        }
+    }

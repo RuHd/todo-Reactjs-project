@@ -1,0 +1,36 @@
+// -- GLOBAL STYLES --
+
+
+// Style Variables
+
+$bckgColor : #855AFD;
+$defaultFontColor : white;
+
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style-type: none;
+  text-decoration: none;
+  color: $defaultFontColor;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: $bckgColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+
