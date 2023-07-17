@@ -6,8 +6,7 @@ Welcome to my project and thanks for your attention to, this README is written t
 
 ## ACCESSING THE APPLICATION ##
 
-If you want to initialize the Application, you can access it directly by clicking on the github page of this repository. It'll give you the plain
-functional environment on the browser. Or you can start the project on developing environment through NPM START.
+If you want to initialize the Application, you can access it directly by clicking on the link https://todolistbyruan.netlify.app/. It'll give you the plain functional environment on the browser. Or you can start the project on developing environment through NPM START.
 
 ## ABOUT THE PROJECT ##
 
